@@ -7,7 +7,7 @@ import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
     const [courses, setCourses] = useState([]);
-    const url = "http://localhost:3001/courses";
+    const url = "https://my-json-server.typicode.com/tech2dev/fake-database/courses";
     useEffect(() => {
         const callApi = async () => {
             try {
