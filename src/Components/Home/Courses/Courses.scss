@@ -1,0 +1,25 @@
+.list-courses {
+  padding: 50px 0;
+  background: #f4f8fa;
+  .title-courses {
+    display: block;
+    margin-bottom: 20px;
+  }
+  a > div {
+    border: 1px solid #e8ebf1;
+    border-radius: 8px;
+    .course-image {
+      overflow: hidden;
+      position: relative;
+      img {
+        transition: all 0.3s;
+      }
+    }
+    h2 {
+      min-height: 56px;
+    }
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+}

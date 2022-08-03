@@ -1,0 +1,311 @@
+{
+  "courses": [
+    {
+      "id": "html-css",
+      "title": "HTML - CSS Dành Cho Người Mới Bắt Đầu",
+      "image": "https://online.unicode.vn/storage/images/khoa%20hoc%20html-css.png",
+      "totalVideo": 120,
+      "price": 595000,
+      "release": true,
+      "author": "Hoàng An",
+      "description": {
+        "content": "Khoá học này sẽ giúp bạn nắm vững kiến thức HTML - CSS từ cơ bản đến nâng cao. Đặc biệt khoá học này rất phù hợp với những người mới tiếp cận với lập trình web nói chung, lập trình Front-End nói riêng.",
+        "list": [
+          "Hiểu được cách website hoạt động, các thành phần cấu tạo của website",
+          "Tự tay xây dựng được giao diện website bằng ngôn ngữ HTML - CSS",
+          "Hiểu được cách phân tích, xây dựng giao diện website từ dòng code đầu tiên",
+          "Tự tay xây dựng được giao diện website tương thích với các nền tảng thiết bị (Responsive Web Design)",
+          "Có luôn sản phẩm thực tế sau khi hoàn thành khoá học"
+        ]
+      }
+    },
+    {
+      "id": "php-basic",
+      "title": "Lập Trình PHP & MySQL Cơ Bản Dành Cho Người Mới",
+      "image": "https://online.unicode.vn/storage/images/khoa%20hoc%20php%20co%20ban.png",
+      "totalVideo": 257,
+      "price": 695000,
+      "release": true,
+      "author": "Hoàng An",
+      "description": {
+        "content": "Khoá học PHP & MySQL cơ bản dành cho người mới bao gồm hơn 100 video hướng dẫn học viên học lập trình PHP & MySQL từ dòng code đầu tiên cho đến khi làm được sản phẩm.",
+        "list": [
+          "Hiểu rõ bản chất cốt lõi ngôn ngữ lập trình PHP",
+          "Được học theo lộ trình rõ ràng, bài bản",
+          "Nắm vững kiến thức nền tảng của ngôn ngữ lập trình PHP, từ đó dễ dàng xử lý các bài toán phức tạp, tiếp cận các kiến thức nâng cao",
+          "Được rèn luyện về logic, thuật toán qua các bài tập trong khoá học",
+          "Nắm vững kiến thức về cơ sở dữ liệu, ngôn ngữ truy vấn SQL từ đó xây dựng ứng dụng thực tế kết hợp PHP & MySQL",
+          "Từng bước xây dựng website hoàn chỉnh từ đầu đến khi đẩy website lên Internet",
+          "Được hỗ trợ trực tiếp bởi giảng viên, qua group kín,..."
+        ]
+      }
+    },
+    {
+      "id": "php-advanced",
+      "title": "Lập Trình PHP Nâng Cao - Chuyên Sâu Để Đi Làm",
+      "image": "https://online.unicode.vn/storage/images/khoa%20hoc%20php%20nang%20cao.png",
+      "totalVideo": 90,
+      "price": 795000,
+      "release": true,
+      "author": "Hoàng An",
+      "description": {
+        "content": "Khoá học PHP nâng cao trang bị cho học viên các kiến thức nâng cao về ngôn ngữ lập trình PHP để chuẩn bị đi làm và học nâng cao lên các PHP Framework",
+        "list": [
+          "Biểu thức chính quy (Regular Expression)",
+          "Lập trình hướng đối tượng",
+          "cURL trong PHP",
+          "Thao tác với File - Folder",
+          "Mô hình MVC - HMVC",
+          "Ajax",
+          "XML - DOM - JSON",
+          "API",
+          "Các kiến thức chuyên sâu khác"
+        ]
+      }
+    },
+    {
+      "id": "laravel",
+      "title": "Lập Trình Web PHP & MySQL Với Laravel Framework",
+      "image": "https://online.unicode.vn/storage/images/khoa%20hoc%20laravel.png",
+      "totalVideo": 90,
+      "price": 895000,
+      "release": true,
+      "author": "Hoàng An",
+      "description": {
+        "content": "Khoá học Laravel Framework trang bị cho học viên các kiến thức từ cơ bản đến nâng cao về Laravel Framework, từ đó giúp học viên tự làm dự án với PHP Framework này. Ngoài ra, học viên được rèn luyện tư duy khi làm việc với Framework từ đó có thể triển khai các dự án phức tạp, có tính logic cao. Khoá học này không chia sẻ tất cả mọi thứ về Laravel nhưng sẽ trang bị cho học viên những kiến thức quan trọng, cần thiết khi đi làm cần sử dụng tới"
+      }
+    }
+  ],
+  "accordionHeadings": [
+    {
+      "id": 1,
+      "title": "Module 01: Nhập Môn Lập Trình Web",
+      "courseId": "html-css"
+    },
+    {
+      "id": 2,
+      "title": "Module 02: Ngôn Ngữ HTML",
+      "courseId": "html-css"
+    },
+    {
+      "id": 3,
+      "title": "Module 03: Ngôn Ngữ CSS",
+      "courseId": "html-css"
+    },
+    {
+      "id": 4,
+      "title": "Module 04: Responsive Web Design",
+      "courseId": "html-css"
+    },
+    {
+      "id": 5,
+      "title": "Module 01: Biểu Thức Chính Quy (Regular Expression)",
+      "courseId": "php-advanced"
+    },
+    {
+      "id": 6,
+      "title": "Module 02: Lập Trình Hướng Đối Tượng (OOP)",
+      "courseId": "php-advanced"
+    },
+    {
+      "id": 7,
+      "title": "Module 03: Làm Việc Với CURL Trong PHP",
+      "courseId": "php-advanced"
+    },
+    {
+      "id": 8,
+      "title": "Module 04: Làm Việc Với File - Folder",
+      "courseId": "php-advanced"
+    },
+    {
+      "id": 9,
+      "title": "Module 01: Nhập Môn Lập Trình PHP",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 10,
+      "title": "Module 02: PHP Căn Bản",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 11,
+      "title": "Module 03: Cơ Sở Dữ Liệu Và Ngôn Ngữ Truy Vấn SQL",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 12,
+      "title": "Module 04: Kết Nối PHP & MySQL Bằng PDO",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 13,
+      "title": "Module 05: Thực Hành Xây Dựng Chức Năng Quản Lý Người Dùng",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 14,
+      "title": "Module 06: Xây Dựng Website Giới Thiệu Công Ty Từ A Đến Z (Update)",
+      "courseId": "php-basic"
+    },
+    {
+      "id": 15,
+      "title": "Module 01: Nhập Môn Lập Trình Laravel Framework",
+      "courseId": "laravel"
+    },
+    {
+      "id": 16,
+      "title": "Module 02: Lập Trình Laravel Framework Cơ Bản",
+      "courseId": "laravel"
+    },
+    {
+      "id": 17,
+      "title": "Module 03: Làm Việc Với Database Laravel",
+      "courseId": "laravel"
+    },
+    {
+      "id": 18,
+      "title": "Module 04: Eloquent ORM Laravel",
+      "courseId": "laravel"
+    },
+    {
+      "id": 19,
+      "title": "Module 05: Migrations - Seeder",
+      "courseId": "laravel"
+    },
+    {
+      "id": 20,
+      "title": "Module 06: Authentication Trong Laravel",
+      "courseId": "laravel"
+    },
+    {
+      "id": 21,
+      "title": "Module 07: Multiple Authentication Trong Laravel",
+      "courseId": "laravel"
+    },
+    {
+      "id": 22,
+      "title": "Module 08: Authorization Laravel - Phân Quyền Người Dùng",
+      "courseId": "laravel"
+    },
+    {
+      "id": 23,
+      "title": "Module 09: Tích Hợp Đăng Nhập Thông Qua Mạng Xã Hội",
+      "courseId": "laravel"
+    },
+    {
+      "id": 24,
+      "title": "Module 10: Xây Dựng RESTful API Với Laravel",
+      "courseId": "laravel"
+    }
+  ],
+  "listVideo": [
+    {
+      "id": 1,
+      "title": "Bài 01: Giới thiệu Khóa học HTML-CSS",
+      "trial": true,
+      "accordionHeadingId": 1,
+      "courseId": "html-css",
+      "link": "fWlWYqGIZ8U"
+    },
+    {
+      "id": 1,
+      "title": "Bài 01: Giới thiệu Khóa học PHP",
+      "trial": true,
+      "accordionHeadingId": 5,
+      "courseId": "php-advanced",
+      "link": "fWlWYqGIZ8U"
+    },
+    {
+      "id": 2,
+      "title": "Bài 02: Nhập môn lập trình web - Phần 1",
+      "trial": false,
+      "accordionHeadingId": 1,
+      "courseId": "html-css",
+      "link": "fWlWYqGIZ8U"
+    },
+    {
+      "id": 3,
+      "title": "Bài 03: Nhập môn lập trình web - Phần 2",
+      "trial": false,
+      "accordionHeadingId": 1,
+      "courseId": "html-css",
+      "link": "fWlWYqGIZ8U"
+    },
+    {
+      "id": 4,
+      "title": "Bài 04: Công cụ - Phần mềm cần chuẩn bị ",
+      "trial": true,
+      "accordionHeadingId": 1,
+      "courseId": "html-css",
+      "link": "wemjUFk-gnY"
+    },
+    {
+      "id": 5,
+      "title": "Bài 05: HTML cơ bản - Phần 1",
+      "trial": true,
+      "accordionHeadingId": 2,
+      "courseId": "html-css",
+      "link": "wemjUFk-gnY"
+    },
+    {
+      "id": 6,
+      "title": "Bài 06: HTML cơ bản - Phần 2",
+      "trial": true,
+      "accordionHeadingId": 2,
+      "courseId": "html-css",
+      "link": "wemjUFk-gnY"
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "courseId": "html-css",
+      "listVideoId": 1,
+      "question": "what is abcdef",
+      "incorrect": [
+        "a",
+        "b",
+        "c"
+      ],
+      "correct": "d"
+    },
+    {
+      "id": 2,
+      "courseId": "php",
+      "listVideoId": 1,
+      "question": "what is abcdef",
+      "incorrect": [
+        "a",
+        "b",
+        "c"
+      ],
+      "correct": "d"
+    },
+    {
+      "id": 3,
+      "courseId": "html-css",
+      "listVideoId": 1,
+      "question": "what is abcdef",
+      "incorrect": [
+        "a",
+        "b",
+        "c"
+      ],
+      "correct": "d"
+    }
+  ],
+  "UserDemo": [
+    {
+      "id": 1,
+      "email": "demo@unicode.vn",
+      "password": "demo@unicode.vn",
+      "bookmark": []
+    },
+    {
+      "id": 2,
+      "email": "demo1@unicode.vn",
+      "password": "demo1@unicode.vn",
+      "bookmark": []
+    }
+  ]
+}

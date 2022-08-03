@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import DetailCourse from './Pages/DetailCourse/DetailCourse';
+import SuccessfulRegisterDetailLecture from './Pages/SuccessfulRegisterDetailLecture/SuccessfulRegisterDetailLecture';
+import SignIn from './Pages/SignIn/SignIn';
+import NotFound from './Pages/NotFound/NotFound';
+import Home from './Pages/Home/Home';
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import 'video.js/dist/video-js.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/khoa-hoc/:courseID" element={<DetailCourse />} />
+        <Route exact path="/khoa-hoc/:courseID/bai-hoc/bai-:Idlecture" element={<SuccessfulRegisterDetailLecture />} />
+        <Route exact path="/dang-nhap" element={<SignIn />} />
+        <Route path="*" element={<NotFound />} status={404} />
+      </Routes>
     </div>
   );
 }
