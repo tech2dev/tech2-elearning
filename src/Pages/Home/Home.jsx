@@ -3,22 +3,19 @@ import axios from "axios";
 import Nav from "../../Components/Nav/Nav";
 import Courses from "../../Components/Home/Courses/Courses";
 import Footer from "../../Components/Footer/Footer";
+import courseApi from "../../Api/courseApi";
+
 
 
 const Home = () => {
     const [courses, setCourses] = useState([]);
-    const url = "https://my-json-server.typicode.com/tech2dev/fake-database/courses";
     useEffect(() => {
-        const callApi = async () => {
-            try {
-                const res = await axios.get(url);
-                setCourses(res.data);
-            } catch (error) {
-                console.log("error");
-            }
-        };
-        callApi();
-    }, []);
+        const getCourses = async () => {
+            const fullCourses = await courseApi.getFullCourses();
+            setCourses(fullCourses.data)
+        }
+        getCourses();
+    }, [])
     return (
         <>
             <Nav />
