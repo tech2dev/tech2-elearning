@@ -36,7 +36,7 @@ function DetailLecture({ videoCourse, previousCourse, nextCourse }) {
         responsive: true,
         fluid: true,
         sources: [{
-            src: '//vjs.zencdn.net/v/oceans.mp4',
+            src: '//vjs.zencdn.net/v/oceans.mp4' || 'https://videos.sproutvideo.com/embed/709ed9b61911e3c8f9/2bdef13b90a44846',
             type: 'video/mp4'
         }]
     };
