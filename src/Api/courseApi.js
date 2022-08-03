@@ -1,6 +1,10 @@
 import requestClient from './requestClient';
 
 const courseApi = {
+    getFullCourses() {
+        const url = `courses`;
+        return requestClient.get(url);
+    },
     getUnregisterCourse(ID) {
         const url = `courses/${ID}`;
         return requestClient.get(url);
